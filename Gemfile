@@ -7,9 +7,7 @@ group :production do
 	gem 'pg'
 end
 
-group :developent, :test do
-	gem 'sqlite3'
-end 
+gem 'sglite3', :group => [:development,test]
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
